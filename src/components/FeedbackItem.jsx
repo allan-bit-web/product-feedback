@@ -13,7 +13,7 @@ export default function FeedbackItem({feedback,index,onDelete}){
                 </p>
                 <p className="text-sm font-medium mt-1">Rating:{feedback.rating}</p>
             </div>
-            <Button variant="destructive" onclick={() => onDelete(index)}>Delete</Button>
+            <Button variant="destructive" onClick={() => onDelete(index)}>Delete</Button>
         </Card>
 
     )
